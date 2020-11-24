@@ -1,3 +1,7 @@
+using Pkg
+pkg"activate ."
+pkg"instantiate"
+
 using ForwardDiff
 using LinearAlgebra
 
