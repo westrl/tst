@@ -1,9 +1,11 @@
-# using Pkg
-# pkg"activate ."
-# pkg"instantiate"
+using Pkg
+pkg"activate ."
+pkg"instantiate"
 
 using ForwardDiff
 using Test
+
+using fTst
 
 function main()
   x::AbstractArray = [2.0, 2.0]
