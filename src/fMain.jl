@@ -10,7 +10,6 @@ function f(x::AbstractArray)::Real
   return f
 end
 
-
 function main()
   x::AbstractArray = [2.0, 2.0]
   @show f(x)
