@@ -19,6 +19,7 @@ function main()
   
   h = ForwardDiff.hessian(f, x)
   @show h
+  
 end
 
 main()
